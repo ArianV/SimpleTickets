@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/banner.png" alt="SimpleTickets"><br>
+  <img src="https://i.imgur.com/x2LsatM.png" alt="SimpleTickets"><br>
   SimpleTickets
 </h1>
 
