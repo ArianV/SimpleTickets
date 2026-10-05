@@ -81,14 +81,6 @@ The only thing you have to set in `.env` is the token. The rest is optional.
 | `DATA_FILE` | `data/tickets.json` | Where settings and open tickets are saved |
 | `LOG_LEVEL` | `info` | `debug`, `info`, `warn` or `error` |
 
-## Docker
-
-```bash
-docker build -t simpletickets .
-docker run --rm --env-file .env simpletickets node dist/deploy-commands.js
-docker run -d --name simpletickets --env-file .env -v simpletickets-data:/app/data simpletickets
-```
-
 ## Development
 
 ```bash

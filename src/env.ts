@@ -37,7 +37,7 @@ export function loadEnvOrExit(): Env {
   try {
     process.loadEnvFile();
   } catch (error) {
-    // no .env is fine, the vars might be set some other way (docker etc)
+    // no .env is fine, the vars might already be set in the environment
     if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
   }
 
