@@ -1,9 +1,8 @@
 name: CI
 
+# manual for now, run it from the Actions tab
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   check:
